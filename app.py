@@ -31,7 +31,7 @@ if st.sidebar.checkbox('Show DataFrame'): # Checkbox an der Seite
 else:
     st.subheader('Now it isnt')
 
-st.sidebar.checkbox('This is a checkbox')
+st.sidebar.checkbox('This is a checkbox!')
 
 years = ['All'] + sorted(pd.unique(mpg_df['year']))
 
